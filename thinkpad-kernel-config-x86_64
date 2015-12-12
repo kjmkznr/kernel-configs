@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 3.5.0-gentoo Kernel Configuration
+# Linux/x86 3.5.4-gentoo Kernel Configuration
 #
 CONFIG_64BIT=y
 # CONFIG_X86_32 is not set
@@ -1153,7 +1153,8 @@ CONFIG_SCSI_PROC_FS=y
 CONFIG_BLK_DEV_SD=y
 # CONFIG_CHR_DEV_ST is not set
 # CONFIG_CHR_DEV_OSST is not set
-# CONFIG_BLK_DEV_SR is not set
+CONFIG_BLK_DEV_SR=m
+CONFIG_BLK_DEV_SR_VENDOR=y
 CONFIG_CHR_DEV_SG=y
 # CONFIG_CHR_DEV_SCH is not set
 CONFIG_SCSI_MULTI_LUN=y
@@ -2575,7 +2576,7 @@ CONFIG_USB_STORAGE_ALAUDA=m
 # CONFIG_USB_STORAGE_KARMA is not set
 # CONFIG_USB_STORAGE_CYPRESS_ATACB is not set
 # CONFIG_USB_STORAGE_ENE_UB6250 is not set
-# CONFIG_USB_UAS is not set
+CONFIG_USB_UAS=m
 # CONFIG_USB_LIBUSUAL is not set
 
 #
